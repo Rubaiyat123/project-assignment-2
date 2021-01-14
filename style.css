@@ -1,0 +1,81 @@
+.body{
+    font-family: 'Bebas Neue', cursive;
+}
+.part-1, .nav-color{
+    background-color:#f7efd9 ;
+}
+.navbar-item{
+    position: relative;
+    left: 150px;
+}
+.navbar-item a{
+       color: rgb(169, 169, 169);
+       font-weight: 500;
+}
+.penguin span{
+   
+      color:rgb(241, 179, 64);
+      font-weight: 700;
+}
+.penguin h1{
+    margin-top: 30px;
+    color: rgb(40, 72, 100);
+    font-size: 40px;
+    font-weight: 700;
+}
+.btn-1{
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: yellowgreen;
+    border: none;
+    margin-top: 15px;
+}
+.btn-1{
+    margin-left: auto;
+}
+.icon-card{
+    width: 440px;
+    height: 140px;
+}
+.icon-card h5{
+    color: rgb(40, 72, 100);
+}
+.img-part img{
+    width: 400px;
+     height: 350px;
+      margin-top: 30px;
+}
+footer span{
+    color:orange;
+    font-size: 12px;
+    font-weight: 600;
+}
+footer h1{
+    color: rgb(40, 72, 100);
+    border-radius: 5px;
+
+}
+footer{
+    text-align: center;
+    background-color: rgb(255, 250, 246);
+    border-radius: 10px;
+
+}
+.form-part{
+    width: 400px;
+    margin: auto;
+}
+.form-part .btn-2{
+      background-color: yellowgreen;
+}
+
+@media only screen and (max-width: 600px){
+    .icon-card{
+        width: 350px;
+        height: 250px;
+        float: left;
+    }
+     
+
+}
